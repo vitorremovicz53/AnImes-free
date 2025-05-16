@@ -1,4 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .cabecalho{
-    background-color: rgba(5, 1, 245, 0.651);
-    color: aliceblue;
+    background-color: rgba(38, 12, 206, 0.566);
+    color:rgb(5, 5, 5);
+}  
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 30px;
+}
+
+.cabecalhoListaItem{
+    display: inline-block;
+    margin: 0 30px;
+    padding: 25px 0;
 }
